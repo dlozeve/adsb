@@ -1,6 +1,6 @@
 var map = L.map('map').setView([48.68, 4.9], 7);
 
-L.tileLayer('https://api.mapbox.com/styles/v1/deltux/cix9hq0il00f42qo9ru2lvi10/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZGVsdHV4IiwiYSI6ImNpdzB4dHhqcDAwMXoyb280c3VyZjVpZmYifQ.8A9IxhBEga9lI1h2zUDSgg')
+L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
     .addTo(map);
 
 function onEachFeature(feature, layer) {
